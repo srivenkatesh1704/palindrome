@@ -5,6 +5,7 @@ s=0
 for (( i=0;i<3;i++ ))
 do
 n=$((RANDOM%900 +100))
+echo $n
 while [ $n -gt 0 ]
 do
 
